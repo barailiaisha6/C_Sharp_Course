@@ -1,0 +1,22 @@
+// Swap two variables without using a third variable.
+
+using System;
+
+public class SwappingWithoutVar
+{
+    
+    public static void Main(string[] args)
+    {
+      int a = 10;
+      int b = 5;
+      
+      Console.WriteLine($"The value of a, b, and c without swapping is :{a}, {b} ");
+      
+      a = b;
+      b = a;
+      
+      Console.WriteLine($"The value of a, b, and c after swapping is:a = {b}, b = {a}, ");
+    }
+    
+   
+}
